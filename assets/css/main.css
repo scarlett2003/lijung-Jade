@@ -212,13 +212,13 @@ body {
   font-size: 15px; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: #5BDCD3; }
 
 ::selection {
-  background: #FFF498; }
+  background: #5BDCD3; }
 
 ::-moz-selection {
-  background: #FFF498; }
+  background: #5BDCD3; }
 
 img::-moz-selection {
   background: transparent; }
@@ -230,7 +230,7 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #FFF498; }
+  -webkit-tap-highlight-color: #5BDCD3; }
 
 a {
   color: #0074D9;
@@ -342,7 +342,8 @@ input[type="button"] {
 .topbar-outer {
   background-color: #f1f1f1;
   height: 60px;
-  line-height: 60px; }
+  line-height: 60px;
+  border-bottom: 1px solid #ddd; }
   .topbar-outer p {
     float: left; }
   .topbar-outer .quick-link {
@@ -350,6 +351,18 @@ input[type="button"] {
     .topbar-outer .quick-link ul li {
       display: inline-block;
       margin-left: 10px; }
+    .topbar-outer .quick-link ul a.apply-online {
+      color: #fff;
+      background-color: #0e76bc;
+      padding: 5px 8px;
+      border-radius: 5px;
+      box-shadow: -1px -1px 1px rgba(255, 255, 255, 0.5); }
+      .topbar-outer .quick-link ul a.apply-online:hover {
+        background-color: #0a588d; }
+    .topbar-outer .quick-link ul a.line-color {
+      color: #01c302; }
+      .topbar-outer .quick-link ul a.line-color:hover {
+        color: #019001; }
 
 .topbar-menu-outer {
   height: 100px;
@@ -443,6 +456,26 @@ input[type="button"] {
     line-height: 48px;
     font-size: 13px;
     color: #d3d3d3; }
+
+.icon-tel {
+  background: url(/assets/img/sprit.png) -1px -1px no-repeat;
+  width: 21px;
+  height: 21px;
+  display: inline-block;
+  margin: -3px 4px; }
+
+.icon-line {
+  background: url(/assets/img/sprit.png) 0px -100px no-repeat;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  float: left; }
+
+.quick-link .icon-line {
+  margin-top: 20px; }
+
+.footer-line .icon-line {
+  margin-top: 0; }
 
 .wrap {
   width: 1000px;

@@ -2,6 +2,7 @@
 	background-color: #f1f1f1
 	height: 60px
 	line-height: 60px
+	border-bottom: 1px solid #ddd
 	p
 		float: left
 	.quick-link
@@ -10,6 +11,19 @@
 			li
 				display: inline-block
 				margin-left: 10px
+			a.apply-online
+				color: #fff
+				background-color: $blue-lr
+				padding: 5px 8px
+				border-radius: 5px
+				box-shadow: -1px -1px 1px rgba(255,255,255,0.5)
+				&:hover
+					background-color: darken($blue-lr,10%)
+			a.line-color
+				color: $line-color
+				&:hover
+					color: darken($line-color, 10%)
+
 
 // logo + menu 
 .topbar-menu-outer
