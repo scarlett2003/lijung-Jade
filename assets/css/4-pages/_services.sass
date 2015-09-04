@@ -5,11 +5,14 @@
 	.con-50
 		float: left
 		width: 350px
+		&:nth-child(2)
+			float: right
 		
 		
 
 		.products-header
 			text-align: center
+			width: 100%
 			height: 200px
 			padding-top: 30px
 			background: url(/assets/img/bg-products-header.jpg) top center no-repeat
@@ -37,10 +40,21 @@
 				margin-bottom: -25px
 				width: 50px
 				height: 50px
+				display: block
 				border-radius: 50%
-				background: #fff
+				text-indent: -9999px
+				background: url(/assets/img/bg-products-header.jpg) 50% 50% no-repeat
 
-
+				.icon-zoom
+					width: 30px
+					height: 30px
+					display: block
+					position: absolute
+					top: 50%
+					left: 50%
+					margin-left: -15px
+					margin-top: -15px
+					background: url(/assets/img/sprit.png) 0 -350px no-repeat
 
 		.products-body
 			padding: 20px
