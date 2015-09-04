@@ -1,0 +1,1 @@
+$(document).ready(function(){function o(){var o,r,n,l,t;for(o=0,r=arguments.length;r>o;o++){if(n=arguments[o],l=$(n),l.scrollTop()>0)return n;if(l.scrollTop(1),scrollable=l.scrollTop()>0,l.scrollTop(0),t)return n}return[]}$(".backTop").each(function(){var r=o("html","body");$(this).on("click",function(o){o.preventDefault(),$(r).animate({scrollTop:0},250)})})});

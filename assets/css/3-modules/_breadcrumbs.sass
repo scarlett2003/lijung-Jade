@@ -1,0 +1,21 @@
+.breadcrumbs
+	border-bottom: 1px solid #ddd
+	height: 50px
+	line-height: 50px
+
+	ul
+		li
+			display: inline-block
+			margin-right: 5px
+			&:after
+				content: "/"
+				display: inline-block
+				margin-right: 5px
+				margin-left: 10px
+			&:last-child
+				&:after
+					display: none
+
+		.now
+			color: $blue-lr
+
