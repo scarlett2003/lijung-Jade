@@ -1,0 +1,46 @@
+extends layout
+
+mixin news-list
+    li
+        a(href="news01.html") 立榮控股獲　首屆公司治理評鑑排名前百分之五
+            span.post-date 07/15
+
+
+
+//- start each pages
+block container
+
+    .breadcrumbs
+        .wrap
+            ul
+                li 
+                    a(href="index.html") 首頁
+                li.now 最新消息
+
+    //- news
+    .container
+        .sidebar
+            .sidebar-title 最新消息
+        .content
+            .content-title 最新消息
+            .news-list
+                ul
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+                    +news-list
+
+            include pages
+
+
+
+
+
+
+    //- end each pages

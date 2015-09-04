@@ -513,6 +513,20 @@ input[type="button"] {
         background-color: #0e76bc;
         color: #fff; }
 
+.post-date {
+  color: #ababab;
+  position: absolute;
+  top: 0px;
+  right: 10px; }
+
+.backPre {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 5px 12px; }
+  .backPre:hover {
+    background-color: #0e76bc;
+    color: #fff; }
+
 .wrap {
   width: 1000px;
   padding: 0 20px;
@@ -564,10 +578,24 @@ input[type="button"] {
       display: block; }
       .news-list ul li a:hover {
         background-position: 0 -185px; }
-      .news-list ul li a .post-date {
-        color: #ababab;
-        position: absolute;
-        top: 0px;
-        right: 10px; }
+
+.news-con {
+  margin: 20px 0; }
+  .news-con .news-title {
+    color: #4c4c4c;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 80px 10px 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative; }
+    .news-con .news-title .post-date {
+      font-weight: normal;
+      font-size: 15px;
+      top: initial;
+      right: 0;
+      bottom: 10px; }
+  .news-con p {
+    line-height: 1.6; }
 
 /*# sourceMappingURL=main.css.map */
