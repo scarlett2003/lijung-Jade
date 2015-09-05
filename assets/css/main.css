@@ -7136,6 +7136,30 @@ input[type="button"] {
 .footer-line .icon-line {
   margin-top: 0; }
 
+.icon-ser {
+  display: block;
+  background-image: url(/assets/img/sprit.png);
+  background-repeat: no-repeat;
+  width: 58px;
+  height: 58px;
+  margin: 10px auto;
+  overflow: hidden; }
+
+.icon-ser1 {
+  background-position: 0 -420px; }
+
+.icon-ser2 {
+  background-position: 0 -500px; }
+
+.icon-ser3 {
+  background-position: 0 -580px; }
+
+.icon-ser4 {
+  background-position: 0 -660px; }
+
+.icon-ser5 {
+  background-position: 0 -740px; }
+
 .breadcrumbs-lr {
   border-bottom: 1px solid #ddd;
   height: 50px;
@@ -7340,5 +7364,83 @@ input[type="button"] {
 
 .reveal-modal-bg {
   background: rgba(0, 0, 0, 0.75); }
+
+.services-con {
+  margin: 20px 0;
+  overflow: hidden; }
+  .services-con .con-25 {
+    width: 25%;
+    float: left;
+    min-height: 300px; }
+    .services-con .con-25::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .services-con .con-inner {
+    width: 97%;
+    margin: 0 auto; }
+    .services-con .con-inner h3 {
+      font-size: 20px;
+      color: #4c4c4c;
+      text-align: center;
+      padding-bottom: 10px;
+      border-bottom: 5px solid #898989;
+      position: relative; }
+      .services-con .con-inner h3:after {
+        content: "";
+        display: block;
+        width: 20px;
+        height: 30px;
+        background: url(/assets/img/sprit.png) 0 -800px no-repeat;
+        position: absolute;
+        bottom: 10px;
+        right: 2px;
+        overflow: hidden; }
+    .services-con .con-inner ul {
+      padding: 10px; }
+      .services-con .con-inner ul li {
+        line-height: 2;
+        list-style-type: disc;
+        list-style-position: inside; }
+  .services-con .con-inner.end h3:after {
+    display: none; }
+  .services-con .con-25.center {
+    clear: both;
+    float: none;
+    margin: 20px auto 20px;
+    min-height: 200px; }
+    .services-con .con-25.center h3:after {
+      display: none; }
+    .services-con .con-25.center p {
+      text-align: center;
+      margin-top: 20px; }
+  .services-con .btn.btn-blue {
+    margin: 0 auto 50px; }
+
+.services-con {
+  margin: 20px 0;
+  overflow: hidden; }
+  .services-con .con-100 {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 180px;
+    background: url(/assets/img/service3.jpg) top right no-repeat #fff; }
+  .services-con .exp-outer {
+    margin-bottom: 50px; }
+    .services-con .exp-outer h3 {
+      font-size: 18px;
+      color: #4c4c4c;
+      background-image: url("/assets/img/sprit.png");
+      background-position: 0 -194px;
+      background-repeat: no-repeat;
+      padding-left: 20px; }
+    .services-con .exp-outer .exp {
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px; }
+      .services-con .exp-outer .exp p {
+        margin-bottom: 0; }
+  .services-con .btn.btn-blue {
+    margin: 0 auto 50px; }
 
 /*# sourceMappingURL=main.css.map */

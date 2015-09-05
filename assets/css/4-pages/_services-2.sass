@@ -1,0 +1,59 @@
+.services-con
+	margin: 20px 0
+	overflow: hidden
+
+	.con-25
+		width: 25%
+		float: left
+		min-height: 300px
+		&::after
+			clear: both
+			content: ""
+			display: table		
+	.con-inner		
+		width: 97%
+		margin: 0 auto
+		h3
+			font-size: 20px
+			color: $title-lr
+			text-align: center
+			padding-bottom: 10px
+			// padding-right: 20px
+			border-bottom: 5px solid #898989
+			position: relative
+			&:after
+				content: ""
+				display: block
+				width: 20px
+				height: 30px
+				background: url(/assets/img/sprit.png) 0 -800px no-repeat
+				position: absolute
+				bottom: 10px
+				right: 2px
+				overflow: hidden
+
+		ul
+			padding: 10px
+			li
+				line-height: 2
+				list-style-type: disc
+				list-style-position: inside
+	
+	.con-inner.end
+		h3:after
+			display: none
+
+	.con-25.center
+		clear: both
+		float: none
+		margin: 20px auto 20px
+		min-height: 200px
+		h3:after
+			display: none
+		p
+			text-align: center
+			margin-top: 20px
+
+	.btn.btn-blue
+		margin: 0 auto 50px
+

@@ -1,0 +1,52 @@
+extends layout
+
+
+//- start each pages
+block container
+
+    .breadcrumbs-lr
+        .wrap
+            ul
+                li 
+                    a(href="index.html") 首頁
+                li.now 成功案例
+
+    //- news
+    .container
+        .sidebar
+            .sidebar-title 服務項目
+            ul
+                li: a(href="services01.html") 貸款方案
+                li: a(href="services02.html") 申請流程
+                li: a(href="services03.html") 成功案例
+                li: a(href="services04.html") 常見問題
+        .content
+            .content-title 成功案例
+            .services-con
+                .con-100
+
+                    .exp-outer
+                        h3 案例一
+                        .exp
+                            p 目前開立工程行油漆業的李先生，公司設立時間3年，資本額20萬，年營業額50萬，需要150萬的資金做工程押標金，銀行申請遭拒，評分不足，經本公司專員楊小姐瞭解後，覺得客戶本身雖然營業額較少，但本身營運狀況正常，而且票信正常，跟本公司審核人員溝通後成功申貸150萬下來，順利取得工程。
+
+                    .exp-outer
+                        h3 案例二
+                        .exp
+                            p 目前開塑膠工廠的王先生，工廠設立半年，資本額300萬，想要再投資廠房設備，因設立時間太短，遭銀行婉拒後，經本公司專員錢小姐瞭解後，覺得客戶資金用途明確，跟本公司審核人員溝通完成後，成功申貸100萬，順利完成擴廠
+
+                    .exp-outer
+                        h3 案例三
+                        .exp
+                            p 目前開電機公司的卓先生，因之前出考察，回來途中因增加行程，時間有慢回國，導致於支票退補，最近銀行申請貸款遭拒，經本公司專員梁小姐瞭解後，認為客戶並不是營運狀況惡化，只不過是一時疏忽，跟本公司審核人員溝通後，也成天申請80萬資金作公司週轉使用
+
+
+
+            include pages
+                //- a(href="contact01.html").btn.btn-blue 立即申請
+
+
+
+
+
+    //- end each pages
