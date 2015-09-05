@@ -1,0 +1,69 @@
+extends layout
+
+
+//- start each pages
+block container
+
+    .breadcrumbs-lr
+        .wrap
+            ul
+                li 
+                    a(href="index.html") 首頁
+                li.now 常見問題
+
+    //- news
+    .container
+        .sidebar
+            .sidebar-title 服務項目
+            ul
+                li: a(href="services01.html") 貸款方案
+                li: a(href="services02.html") 申請流程
+                li: a(href="services03.html") 成功案例
+                li: a(href="services04.html") 常見問題
+        .content
+            .content-title 常見問題
+            .services-con
+                p 以上為貸款的常見問題，更多貸款相關問題，歡迎撥打服務專線 <strong>07-7468331</strong> 由服務專員為您服務
+                .con-90                    
+                    .qa-wrap
+                        .co-q 支票使用未滿1年，是否可申請?
+                        .co-a 可以
+                    .qa-wrap
+                        .co-q 支票若有退補過是否可申請?
+                        .co-a 可以
+                    .qa-wrap
+                        .co-q 若在銀行其他繳款有遲延是否可申請?
+                        .co-a 可以，但若重大信用暇疪則無法申請（重大信用暇疪可來電先確認可否受理）
+                    .qa-wrap
+                        .co-q 近期若有申貸過銀行貸款，需要多久可以再申請?
+                        .co-a 只要符合本公司的條件即可，無時間限制
+                    .qa-wrap
+                        .co-q 若本身無支票，怎麼辦理?
+                        .co-a 找一個有支票的朋友或親屬作保，一樣可以辦理
+                    .qa-wrap
+                        .co-q 若本身只有土地，沒有房子是否可申請?
+                        .co-a 可以
+                    .qa-wrap
+                        .co-q 若本身留過其他業者，可否代償增貸?
+                        .co-a 可以（若是民間私設不可）
+                    .qa-wrap
+                        .co-q 最高額度是多少?
+                        .co-a 目前是500萬，若有大筆金額可以個案討論
+                    .qa-wrap
+                        .co-q 還款方式及期數?
+                        .co-a 最長48期，採本息攤還的方式還款（若電再拉長期數可個案討論)
+                    
+                    a(href="contact01.html").btn.btn-blue 立即申請
+
+
+
+
+
+            include pages
+                //- a(href="contact01.html").btn.btn-blue 立即申請
+
+
+
+
+
+    //- end each pages
