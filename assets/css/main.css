@@ -7243,6 +7243,14 @@ input[type="button"] {
     padding: 18px 0 18px 20px;
     background: url("/assets/img/dot.gif") top left repeat; }
 
+.con-100 {
+  width: 100%;
+  clear: both; }
+
+.con-50 {
+  width: 50%;
+  float: left; }
+
 .sidebar-title,
 .content-title {
   font-size: 20px;
@@ -7494,6 +7502,75 @@ input[type="button"] {
     color: #13a89e; }
 
 .services-con .qa-wrap + .btn.btn-blue {
-  margin: 30px 0 0 30px; }
+  margin: 30px 0 30px 30px; }
+
+.about-con {
+  margin: 20px 0;
+  overflow: hidden; }
+  .about-con .con-50 {
+    margin: 30px 0;
+    padding-right: 20px; }
+    .about-con .con-50 .comp-img {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: block; }
+  .about-con .con-100 .comp-img {
+    margin: 0 auto;
+    display: block; }
+  .about-con .con-100 .slo {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px; }
+    .about-con .con-100 .slo strong {
+      font-weight: 600;
+      margin-right: 20px;
+      font-size: 24px; }
+    .about-con .con-100 .slo .blue {
+      color: #0e76bc; }
+    .about-con .con-100 .slo .green {
+      color: #13a89e; }
+
+.contact-con {
+  margin: 20px 0;
+  overflow: hidden; }
+  .contact-con h2.title {
+    font-size: 20px;
+    color: #0e76bc;
+    padding-left: 30px;
+    background: url("/assets/img/sprit.png") 0 -900px no-repeat; }
+  .contact-con .contact-form {
+    border: 1px solid #ddd;
+    border-top: 5px solid #0e76bc;
+    padding: 20px 30px;
+    overflow: hidden; }
+    .contact-con .contact-form p {
+      font-size: 13px;
+      color: #818181; }
+    .contact-con .contact-form .con-div {
+      overflow: hidden;
+      clear: both;
+      margin-bottom: 20px; }
+    .contact-con .contact-form .con-48 {
+      width: 48%;
+      float: left;
+      margin-right: 2%;
+      overflow: hidden;
+      border-bottom: 1px solid #ddd; }
+      .contact-con .contact-form .con-48 label {
+        float: left;
+        line-height: 37px;
+        height: 37px;
+        width: 20%;
+        padding-left: 5px; }
+      .contact-con .contact-form .con-48 input {
+        float: left;
+        width: 79%;
+        border: none;
+        margin-bottom: 0;
+        box-shadow: none; }
+      .contact-con .contact-form .con-48 input[type="text"]:focus {
+        border: none; }
 
 /*# sourceMappingURL=main.css.map */

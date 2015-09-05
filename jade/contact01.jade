@@ -1,0 +1,63 @@
+extends layout
+
+
+//- start each pages
+block container
+
+    .breadcrumbs-lr
+        .wrap
+            ul
+                li 
+                    a(href="index.html") 首頁
+                li.now 線上申請
+
+    //- news
+    .container
+        .sidebar
+            .sidebar-title 聯絡我們
+            ul
+                li: a(href="about01.html") 線上申請
+                li: a(href="about02.html") 聯絡我們
+
+        .content
+            .content-title 線上申請
+            .contact-con
+                h2.title 聯絡表單
+                .contact-form
+                    p (親愛的客戶您好，歡迎填寫以下表單與我們聯絡，我們會有專人儘快與您聯繫)
+                    .con-div
+                        .con-48
+                            label 聯絡人
+                            input(type="text", placeholder="王老闆")
+
+                    .con-div
+                        .con-48
+                            label 公司名稱
+                            input(type="text", placeholder="王老闆企業社")
+                        .con-48
+                            label 統一編號
+                            input(type="text", placeholder="12345678")
+
+                    .con-div
+                        .con-48
+                            label 聯絡電話
+                            input(type="text", placeholder="07-1234567")
+                        .con-48
+                            label 行動電話
+                            input(type="text", placeholder="0912123456")
+
+                     .con-div
+                        .con-48
+                            label 聯絡時間
+                            input(type="text", placeholder="上午")
+                        .con-48
+                            label E-mail
+                            input(type="text", placeholder="abc@gmail.com")                                
+
+
+
+
+
+
+
+    //- end each pages

@@ -1,0 +1,43 @@
+extends layout
+
+
+//- start each pages
+block container
+
+    .breadcrumbs-lr
+        .wrap
+            ul
+                li 
+                    a(href="index.html") 首頁
+                li.now 關於我們
+
+    //- news
+    .container
+        .sidebar
+            .sidebar-title 關於我們
+            ul
+                li: a(href="about01.html") 關於我們
+                li: a(href="about02.html") 公司願景
+
+        .content
+            .content-title 關於我們
+            .about-con
+                .con-100
+                    img(src="/assets/img/about1.jpg", alt="立榮租賃公司服務項目圖片",title="立榮租賃公司服務項目圖片")
+                .con-50
+                    p 立榮租賃公司是提供中小企業主一個快速、申請資料簡單的資金運用平台。沒有限制行業別，銀行負債比過高，信用沒有暇疪，都可以受理。
+                    p 讓中小企業主，不用煩惱本身的條件不足，一直被銀行婉拒，而導致於錯失投資機會的專業團隊，每一案件立榮租賃的同仁都會針對企業主做一個符合本身條件而且付款輕鬆的資本專案，歡迎來電詢問。
+                .con-50
+                    img(src="/assets/img/about3.jpg", alt="立榮租賃公司形象圖片",title="立榮租賃公司形象圖片").comp-img
+
+                .con-100
+                    img(src="/assets/img/about2.jpg", alt="立榮租賃公司相關企織圖片",title="立榮租賃公司相關企織圖片")
+                
+
+
+
+
+
+
+
+    //- end each pages
