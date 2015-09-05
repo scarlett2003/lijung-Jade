@@ -7570,7 +7570,36 @@ input[type="button"] {
         border: none;
         margin-bottom: 0;
         box-shadow: none; }
-      .contact-con .contact-form .con-48 input[type="text"]:focus {
-        border: none; }
+    .contact-con .contact-form .con-98 label {
+      padding-left: 5px;
+      margin-bottom: 10px; }
+    .contact-con .contact-form .con-98 textarea {
+      max-width: inherit;
+      width: 98%;
+      min-height: 150px; }
+  .contact-con .code-wrap {
+    clear: both;
+    margin: 20px 0;
+    width: 40%; }
+    .contact-con .code-wrap img {
+      display: block;
+      margin-bottom: 10px; }
+    .contact-con .code-wrap input {
+      border: none;
+      border-bottom: 1px solid #ddd;
+      box-shadow: none; }
+  .contact-con .btn-wrap {
+    overflow: hidden; }
+    .contact-con .btn-wrap .btn {
+      float: left;
+      margin-right: 20px; }
+  .contact-con .note {
+    font-size: 13px;
+    clear: both;
+    margin-top: 20px; }
+  .contact-con input[type="text"]:focus {
+    border: none;
+    border-bottom: 1px solid #555;
+    background: #fff; }
 
 /*# sourceMappingURL=main.css.map */

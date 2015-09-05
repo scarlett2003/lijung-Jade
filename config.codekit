@@ -1872,6 +1872,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/vcode1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3888,
+		"inputAbbreviatedPath": "\/assets\/img\/vcode1.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/vcode1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/fastclick.js": {
 		"fileType": 64,
 		"ignore": 0,
