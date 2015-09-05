@@ -4,7 +4,7 @@ extends layout
 //- start each pages
 block container
 
-    .breadcrumbs
+    .breadcrumbs-lr
         .wrap
             ul
                 li 
@@ -27,7 +27,7 @@ block container
                     .products-header
                         h2.products-title 資產活化專案一
                         span 從申請到撥款最快3個工作天
-                        a(href="#").zoom
+                        a(href="#",data-reveal-id="Modal-1").zoom
                             i.icon-zoom
                     .products-body
                         ul
@@ -44,12 +44,13 @@ block container
                                 p 採本息攤還
                                     span.mark (利率與銀行同)
                     a(href="contact01.html").btn.btn-blue 立即申請
+                
 
                 .con-50
                     .products-header
                         h2.products-title 資產活化專案2
                         span 從申請到撥款最快3個工作天
-                        a(href="#").zoom
+                        a(href="#",data-reveal-id="Modal-2").zoom
                             i.icon-zoom
                     .products-body
                         ul
@@ -67,6 +68,13 @@ block container
                                     span.mark (利率與銀行同)
                     a(href="contact01.html").btn.btn-blue 立即申請
 
+                div(data-reveal ,aria-labelledby="modalTitle" ,aria-hidden="true" ,role="dialog")#Modal-1.reveal-modal
+                    img(src="/assets/img/dm1.jpg",alt="資產活化，圓夢高手")
+                    a.close-reveal-modal(aria-label="Close")&#215;
+
+                div(data-reveal ,aria-labelledby="modalTitle" ,aria-hidden="true" ,role="dialog")#Modal-2.reveal-modal
+                    img(src="/assets/img/dm1.jpg",alt="資產活化，圓夢高手")
+                    a.close-reveal-modal(aria-label="Close")&#215;
 
 
             include pages
