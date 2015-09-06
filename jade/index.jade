@@ -1,4 +1,97 @@
-extend layout
+doctype
+html( lang="en")
+    head
+        title 立榮租賃有限公司
+        meta( charset="utf-8" )
+        meta( http-equiv='X-UA-Compatible', content='IE=edge' ) 
+        meta( name='viewport', content='width=device-width, initial-scale=1.0' )
+        meta( name='description', content='' )
+        link( rel="shortcut favicon.ico" href="../assets/img/favicons/favicons.ico" )
+        link( rel="stylesheet" href="../assets/css/main.css" )
 
-block container
-    1
+    body
+        //- header
+        include header
+
+        //- banner
+        .banner-ind-outer
+            .banner-ind
+                .con-top
+                    .con-left
+                        .ser-list.w25
+                            ul
+                                li 企業主融資
+                                li 房屋土地二胎
+                                li 中古車分期(可增貸)
+                            a.more 更多
+                        .case.w25
+                            .title 成功案例
+                            p 開立工程行油漆業的李先生需要150萬的資金做工程押標金成功申貸150萬,順利取得工程
+                            a.more 更多                        
+
+                    .con-right
+                        .call.w50
+                            .title 服務專線 
+                                span.call-no 07-746-8331
+                .con-bottom
+                    .con-left
+                        .hot-news.w50
+                            .title 最新消息
+                            ul
+                                li: a(href="news01.html") 立榮控股獲　首屆公司治理評鑑排名前百分之五名前百分之五名前百
+                                    span 09/15
+                                li: a(href="news01.html") 立榮控股獲
+                                    span 09/15
+                                li: a(href="news01.html") 立榮控股獲　首屆公司治理評鑑排名前百分之五
+                                    span 09/15
+                                li: a(href="news01.html") 立榮控股獲　首屆公司治理評鑑排名前百分之五
+                                    span 09/15
+                                li: a(href="news01.html") 立榮控股獲　首屆公司治理評鑑排名前百分之五
+                                    span 09/15
+                            a.more 更多
+
+                    .con-right
+                        .products-ind.w25
+                            .title 最新方案
+                        .products-ind-img.w25
+                            a(href="services01.html")
+                                img(src="/assets/img/products-ind-img.jpg")
+
+        .wrap.superiority
+            h2.title-ind 我們的優勢
+            ul
+                li
+                    h3 門檻低
+                    p 免財力證明過件率高
+                li
+                    h3 額度高
+                    p 最高可貸500萬
+                li
+                    h3 手續簡便
+                    p 免財力證明過件率高
+                li
+                    h3 撥款快速
+                    p 最快三天撥款
+
+            a(href="contact01.html").btn.btn-blue 立即申請
+
+
+        .wrap.fast
+            h2.title-ind 核貨快速
+
+
+
+        
+
+        //- start each pages
+        block container
+    
+
+
+
+
+
+
+        //- end each pages
+        //- footer
+        include footer

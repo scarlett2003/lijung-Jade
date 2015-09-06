@@ -1586,6 +1586,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-pages\/_index.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_index.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_index.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-pages\/_joinus.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1767,6 +1783,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/banner-ind.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147636,
+		"inputAbbreviatedPath": "\/assets\/img\/banner-ind.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/banner-ind.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/banner-ind.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/assets\/img\/banner-ind.png",
+		"outputAbbreviatedPath": "\/assets\/img\/banner-ind.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/banner.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1774,6 +1812,17 @@
 		"initialSize": 123868,
 		"inputAbbreviatedPath": "\/assets\/img\/banner.jpg",
 		"outputAbbreviatedPath": "\/assets\/img\/banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/bg-banner-ind.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152063,
+		"inputAbbreviatedPath": "\/assets\/img\/bg-banner-ind.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/bg-banner-ind.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1851,6 +1900,17 @@
 		"initialSize": 9219,
 		"inputAbbreviatedPath": "\/assets\/img\/logo.png",
 		"outputAbbreviatedPath": "\/assets\/img\/logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/products-ind-img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80547,
+		"inputAbbreviatedPath": "\/assets\/img\/products-ind-img.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/products-ind-img.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
