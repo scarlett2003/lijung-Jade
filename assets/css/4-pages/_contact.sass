@@ -60,6 +60,7 @@
 		img
 			display: block
 			margin-bottom: 10px
+			border: 1px solid #ddd
 		input
 			border: none
 			border-bottom: 1px solid #ddd
@@ -79,6 +80,42 @@
 		border-bottom: 1px solid #555
 		background: #fff
 
+// has map
+.contact-list
+	li
+		line-height: 44px
+		padding-left: 30px
+		position: relative
+		&:before
+			content: ""
+			display: inline-block
+			width: 24px
+			height: 24px
+			overflow: hidden
+			background: url('/assets/img/sprit.png')
+			background-repeat: no-repeat
+			position: absolute
+			top: 10px
+			left: 0
+
+		&:nth-child(1):before
+			background-position: -100px -415px
+		&:nth-child(2):before
+			background-position: -100px -500px
+		&:nth-child(3):before
+			background-position: -100px -580px
+		&:nth-child(4):before
+			background-position: -100px -660px
+
+
+		h2
+			font-size: 20px
+			font-weight: 600
+			color: $title-lr
+			margin-bottom: 0
+			line-height: 44px
+.has-map
+	margin: 20px 0 40px
 
 
 

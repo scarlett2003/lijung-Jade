@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19051",
+"creatorBuild": "18902",
 "files": {
 	"\/assets\/css\/1-tools\/_fonts.scss": {
 		"createSourceMap": 0,
@@ -1586,6 +1586,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/assets\/css\/4-pages\/_joinus.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/4-pages\/_joinus.sass",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_joinus.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/assets\/css\/4-pages\/_layout.sass": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1806,6 +1822,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/joinus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7579,
+		"inputAbbreviatedPath": "\/assets\/img\/joinus.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/joinus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/line-id.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1996,11 +2023,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/html\/index.html": {
+	"\/html\/contact02.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/html\/index.html",
+		"inputAbbreviatedPath": "\/html\/contact02.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/html\/joinus.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/joinus.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2059,17 +2095,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/jade\/about.jade": {
-		"compileDebug": 1,
-		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/jade\/about.jade",
-		"outputAbbreviatedPath": "\/html\/about.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0
-		},
 	"\/jade\/about01.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -2114,6 +2139,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/jade\/contact02.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/contact02.jade",
+		"outputAbbreviatedPath": "\/html\/contact02.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
 	"\/jade\/footer.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -2143,6 +2179,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/index.jade",
 		"outputAbbreviatedPath": "\/html\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0
+		},
+	"\/jade\/joinus.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/joinus.jade",
+		"outputAbbreviatedPath": "\/html\/joinus.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
@@ -2238,7 +2285,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "vialley",
+"lastSavedByUser": "vialley-imac",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -2727,6 +2774,10 @@
 			}
 		},
 	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -2735,7 +2786,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"couch": {
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2743,27 +2802,75 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"es6": {
+		"eqeq": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"eval": {
+		"evil": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"for": {
+		"forin": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"this": {
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
 			"active": 0,
 			"flagValue": -1
 			},

@@ -7348,6 +7348,7 @@ input[type="button"] {
           background: url(/assets/img/sprit.png) 0 -350px no-repeat; }
     .services-con .con-50 .products-body {
       padding: 20px;
+      margin-bottom: 30px;
       background: #f5f5f5;
       border-left: 1px solid #ddd;
       border-right: 1px solid #ddd;
@@ -7458,7 +7459,7 @@ input[type="button"] {
   .services-con .con-90 {
     width: 90%;
     min-height: 300px;
-    margin: 0 auto; }
+    margin: 50px auto; }
   .services-con .qa-wrap {
     border-left: 1px solid #ddd;
     padding-left: 30px;
@@ -7583,7 +7584,8 @@ input[type="button"] {
     width: 40%; }
     .contact-con .code-wrap img {
       display: block;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      border: 1px solid #ddd; }
     .contact-con .code-wrap input {
       border: none;
       border-bottom: 1px solid #ddd;
@@ -7601,5 +7603,85 @@ input[type="button"] {
     border: none;
     border-bottom: 1px solid #555;
     background: #fff; }
+
+.contact-list li {
+  line-height: 44px;
+  padding-left: 30px;
+  position: relative; }
+  .contact-list li:before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    background: url("/assets/img/sprit.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 0; }
+  .contact-list li:nth-child(1):before {
+    background-position: -100px -415px; }
+  .contact-list li:nth-child(2):before {
+    background-position: -100px -500px; }
+  .contact-list li:nth-child(3):before {
+    background-position: -100px -580px; }
+  .contact-list li:nth-child(4):before {
+    background-position: -100px -660px; }
+  .contact-list li h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4c4c4c;
+    margin-bottom: 0;
+    line-height: 44px; }
+
+.has-map {
+  margin: 20px 0 40px; }
+
+.joinus-con {
+  margin: 20px 0;
+  overflow: hidden; }
+  .joinus-con .joinus-intro {
+    background: url(/assets/img/joinus.jpg) top left no-repeat #fff;
+    padding-left: 130px;
+    padding-bottom: 10px;
+    min-height: 100px;
+    border-bottom: 1px solid #ddd; }
+    .joinus-con .joinus-intro h3 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #4c4c4c; }
+  .joinus-con .career-outer h3,
+  .joinus-con .comp-list h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4c4c4c; }
+  .joinus-con .career-outer {
+    padding: 20px 0px;
+    border-bottom: 1px solid #ddd; }
+  .joinus-con .career-list {
+    overflow: hidden;
+    clear: both; }
+    .joinus-con .career-list li {
+      overflow: hidden;
+      clear: both;
+      margin-bottom: 10px; }
+    .joinus-con .career-list .career-tit {
+      color: #0e76bc;
+      width: 17%;
+      float: left; }
+    .joinus-con .career-list .career-intro {
+      width: 83%;
+      float: left; }
+  .joinus-con .comp-list {
+    overflow: hidden;
+    clear: both; }
+    .joinus-con .comp-list li {
+      margin: 20px 0; }
+      .joinus-con .comp-list li ul {
+        margin: 0; }
+        .joinus-con .comp-list li ul li {
+          margin: 0 0 10px 0; }
+  .joinus-con .btn.btn-blue {
+    margin: 30px 0 50px; }
 
 /*# sourceMappingURL=main.css.map */
