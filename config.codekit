@@ -1860,6 +1860,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/favicons.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4263,
+		"inputAbbreviatedPath": "\/assets\/img\/favicons.png",
+		"outputAbbreviatedPath": "\/assets\/img\/favicons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/footer-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
