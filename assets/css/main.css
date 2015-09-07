@@ -7431,11 +7431,14 @@ h2.title-ind {
   font-size: 28px;
   color: #4c4c4c;
   text-align: center;
-  background: url("/assets/img/tit-ind.jpg") center center no-repeat; }
+  background: url("/assets/img/tit-ind.jpg") center center no-repeat;
+  margin-bottom: 30px; }
 
 .superiority {
   text-align: center;
-  margin: 20px auto; }
+  margin: 180px auto 80px;
+  overflow: hidden;
+  clear: both; }
   .superiority ul {
     overflow: hidden; }
   .superiority li {
@@ -7468,6 +7471,12 @@ h2.title-ind {
   .superiority li:nth-child(4):before {
     background: url("/assets/img/sprit-ind.png") 0 -1050px #eee no-repeat; }
 
+.fast {
+  text-align: center;
+  margin: 50px auto;
+  overflow: hidden;
+  clear: both; }
+
 .news-list {
   margin: 20px 0; }
   .news-list ul li {
@@ -7479,7 +7488,7 @@ h2.title-ind {
       background-image: url("/assets/img/sprit.png");
       background-position: 0 -245px;
       background-repeat: no-repeat;
-      padding-right: 50px;
+      padding-right: 55px;
       padding-left: 20px;
       position: relative;
       display: block; }
