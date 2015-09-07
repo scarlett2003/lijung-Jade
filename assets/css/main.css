@@ -7294,7 +7294,18 @@ input[type="button"] {
     background-color: #13a89e;
     color: #fff;
     text-align: center;
-    position: relative; }
+    position: relative;
+    padding-top: 100px !important; }
+    .banner-ind .ser-list:before {
+      display: block;
+      content: "";
+      width: 76px;
+      height: 76px;
+      background: url("/assets/img/sprit-ind.png") 0 0 no-repeat;
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      margin-left: -38px; }
     .banner-ind .ser-list ul li {
       line-height: 30px;
       height: 30px;
@@ -7314,6 +7325,16 @@ input[type="button"] {
     color: #fff;
     text-align: center;
     position: relative; }
+    .banner-ind .case:before {
+      display: block;
+      content: "";
+      width: 103px;
+      height: 49px;
+      background: url("/assets/img/sprit-ind.png") 0 -200px no-repeat;
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      margin-left: -51px; }
     .banner-ind .case p {
       height: 90px;
       line-height: 30px;
@@ -7365,22 +7386,87 @@ input[type="button"] {
           color: #c7c7c7;
           font-size: 14px; }
   .banner-ind .call {
-    text-align: center;
     padding-top: 40px;
+    padding-left: 80px;
     margin-top: 120px;
     background: #96c136;
-    color: #fff; }
+    color: #fff;
+    position: relative;
+    height: 120px !important; }
+    .banner-ind .call:before {
+      display: block;
+      content: "";
+      width: 47px;
+      height: 47px;
+      background: url("/assets/img/sprit-ind.png") 0 -400px no-repeat;
+      position: absolute;
+      top: 50px;
+      left: 20px; }
     .banner-ind .call .call-no {
       font-size: 44px;
       font-weight: 500; }
   .banner-ind .products-ind {
     background: #fdab39;
-    text-align: center; }
+    text-align: center;
+    position: relative;
+    padding-top: 50px; }
+    .banner-ind .products-ind:before {
+      display: block;
+      content: "";
+      width: 67px;
+      height: 59px;
+      background: url("/assets/img/sprit-ind.png") 0 -500px no-repeat;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      margin-left: -33px;
+      margin-top: -29px; }
     .banner-ind .products-ind .title {
       color: #fff; }
   .banner-ind .products-ind-img img {
     width: 100%;
     height: 100%; }
+
+h2.title-ind {
+  font-size: 28px;
+  color: #4c4c4c;
+  text-align: center;
+  background: url("/assets/img/tit-ind.jpg") center center no-repeat; }
+
+.superiority {
+  text-align: center;
+  margin: 20px auto; }
+  .superiority ul {
+    overflow: hidden; }
+  .superiority li {
+    width: 25%;
+    padding: 20px;
+    float: left;
+    position: relative;
+    padding-top: 120px; }
+  .superiority h3 {
+    font-size: 20px;
+    color: #0e76bc; }
+  .superiority a.btn-blue {
+    margin: 0 auto; }
+  .superiority li:before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -50px; }
+  .superiority li:nth-child(1):before {
+    background: url("/assets/img/sprit-ind.png") 0 -750px #eee no-repeat; }
+  .superiority li:nth-child(2):before {
+    background: url("/assets/img/sprit-ind.png") 0 -850px #eee no-repeat; }
+  .superiority li:nth-child(3):before {
+    background: url("/assets/img/sprit-ind.png") 0 -950px #eee no-repeat; }
+  .superiority li:nth-child(4):before {
+    background: url("/assets/img/sprit-ind.png") 0 -1050px #eee no-repeat; }
 
 .news-list {
   margin: 20px 0; }
