@@ -7364,6 +7364,9 @@ input[type="button"] {
       .banner-ind .hot-news a.more:hover {
         border: 1px solid #333;
         color: #555; }
+    .banner-ind .hot-news .title {
+      background: url("/assets/img/sprit-ind.png") 0 -650px no-repeat;
+      padding-left: 50px; }
     .banner-ind .hot-news li {
       border-bottom: 1px dashed #ddd;
       line-height: 34px;
