@@ -7611,7 +7611,8 @@ h2.title-ind {
       display: table; }
   .services-con .con-inner {
     width: 97%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    word-break: break-all; }
     .services-con .con-inner h3 {
       font-size: 20px;
       color: #4c4c4c;
